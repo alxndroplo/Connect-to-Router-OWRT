@@ -1,0 +1,5505 @@
+{
+    "zabbix_export": {
+        "hosts": [
+            {
+                "host": "10.112.0.62",
+                "name": "ru15104",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "10.112.0.62",
+                        "interface_ref": "if1"
+                    },
+                    {
+                        "type": "SNMP",
+                        "ip": "10.112.0.62",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}",
+                            "bulk": "NO"
+                        },
+                        "interface_ref": "if2"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.2.1",
+                "name": "ru10103",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.2.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.4.1",
+                "name": "ru10107",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.4.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.5.1",
+                "name": "ru10101",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.5.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.21.1",
+                "name": "ru09126",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.21.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.24.1",
+                "name": "ru14106",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.24.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.26.1",
+                "name": "ru14119",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.26.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.28.1",
+                "name": "ru14134",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.28.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.29.1",
+                "name": "ru14135",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.29.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.30.1",
+                "name": "ru14136",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.30.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.31.1",
+                "name": "ru14137",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.31.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.32.1",
+                "name": "ru14138",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.32.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.33.1",
+                "name": "ru14139",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.33.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.37.1",
+                "name": "ru07103",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.37.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.39.1",
+                "name": "ru04101",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.39.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.46.1",
+                "name": "ru03101",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.46.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.49.1",
+                "name": "ru03125",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.49.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.52.1",
+                "name": "ru01113",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.52.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.53.1",
+                "name": "ru11130",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.53.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "items": [
+                    {
+                        "name": "Device contact details",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysContact.0",
+                        "key": "sysContact",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "The textual identification of the contact person for this managed node, together with information on how to contact this person.  If no contact information is known, the value is the zero-length string.",
+                        "inventory_link": "CONTACT",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device description",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysDescr.0",
+                        "key": "sysDescr",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "A textual description of the entity.  This value should include the full name and version identification of the system's hardware type, software operating-system, and networking software.",
+                        "inventory_link": "HARDWARE",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device location",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysLocation.0",
+                        "key": "sysLocation",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "The physical location of this node (e.g., `telephone closet, 3rd floor').  If the location is unknown, the value is the zero-length string.",
+                        "inventory_link": "LOCATION",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device name",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysName.0",
+                        "key": "sysName",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "An administratively-assigned name for this managed node. By convention, this is the node's fully-qualified domain name.  If the name is unknown, the value is the zero-length string.",
+                        "inventory_link": "NAME",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device uptime",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysUpTime.0",
+                        "key": "sysUpTime",
+                        "history": "1w",
+                        "units": "uptime",
+                        "description": "The time since the network management portion of the system was last re-initialized.",
+                        "preprocessing": [
+                            {
+                                "type": "MULTIPLIER",
+                                "parameters": [
+                                    "0.01"
+                                ]
+                            }
+                        ],
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.61.1",
+                "name": "ru12119",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.61.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.64.1",
+                "name": "ru15103",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.64.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "items": [
+                    {
+                        "name": "Device contact details",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysContact.0",
+                        "key": "sysContact",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "The textual identification of the contact person for this managed node, together with information on how to contact this person.  If no contact information is known, the value is the zero-length string.",
+                        "inventory_link": "CONTACT",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device description",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysDescr.0",
+                        "key": "sysDescr",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "A textual description of the entity.  This value should include the full name and version identification of the system's hardware type, software operating-system, and networking software.",
+                        "inventory_link": "HARDWARE",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device location",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysLocation.0",
+                        "key": "sysLocation",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "The physical location of this node (e.g., `telephone closet, 3rd floor').  If the location is unknown, the value is the zero-length string.",
+                        "inventory_link": "LOCATION",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device name",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysName.0",
+                        "key": "sysName",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "An administratively-assigned name for this managed node. By convention, this is the node's fully-qualified domain name.  If the name is unknown, the value is the zero-length string.",
+                        "inventory_link": "NAME",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device uptime",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysUpTime.0",
+                        "key": "sysUpTime",
+                        "history": "1w",
+                        "units": "uptime",
+                        "description": "The time since the network management portion of the system was last re-initialized.",
+                        "preprocessing": [
+                            {
+                                "type": "MULTIPLIER",
+                                "parameters": [
+                                    "0.01"
+                                ]
+                            }
+                        ],
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    }
+                ],
+                "discovery_rules": [
+                    {
+                        "name": "Processors",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "discovery[{#SNMPVALUE},HOST-RESOURCES-MIB::hrProcessorLoad]",
+                        "key": "hrProcessorLoad",
+                        "delay": "1h",
+                        "description": "{$SNMP_COMMUNITY} is a global macro.",
+                        "interface_ref": "if1",
+                        "item_prototypes": [
+                            {
+                                "name": "Utilization of processor #$1",
+                                "type": "SNMP_AGENT",
+                                "snmp_oid": "HOST-RESOURCES-MIB::hrProcessorLoad.{#SNMPINDEX}",
+                                "key": "hrProcessorLoad[{#SNMPINDEX}]",
+                                "history": "1w",
+                                "units": "%",
+                                "description": "The average, over the last minute, of the percentage of time that this processor was not idle. Implementations may approximate this one minute smoothing period if necessary.",
+                                "interface_ref": "if1",
+                                "request_method": "POST",
+                                "tags": [
+                                    {
+                                        "tag": "Application",
+                                        "value": "Processors"
+                                    }
+                                ]
+                            }
+                        ],
+                        "request_method": "POST"
+                    },
+                    {
+                        "name": "Disk partitions",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "discovery[{#SNMPVALUE},HOST-RESOURCES-MIB::hrStorageDescr]",
+                        "key": "hrStorageDescr",
+                        "delay": "1h",
+                        "filter": {
+                            "conditions": [
+                                {
+                                    "macro": "{#SNMPVALUE}",
+                                    "value": "@Storage devices for SNMP discovery",
+                                    "formulaid": "A"
+                                }
+                            ]
+                        },
+                        "description": "The rule will discover all disk partitions matching the global regexp \"Storage devices for SNMP discovery\".\n\n{$SNMP_COMMUNITY} is a global macro.",
+                        "interface_ref": "if1",
+                        "item_prototypes": [
+                            {
+                                "name": "Allocation units for storage $1",
+                                "type": "SNMP_AGENT",
+                                "snmp_oid": "HOST-RESOURCES-MIB::hrStorageAllocationUnits.{#SNMPINDEX}",
+                                "key": "hrStorageAllocationUnits[{#SNMPVALUE}]",
+                                "delay": "1h",
+                                "history": "1w",
+                                "units": "B",
+                                "description": "The size, in bytes, of the data objects allocated from this pool.  If this entry is monitoring sectors, blocks, buffers, or packets, for example, this number will commonly be greater than one.  Otherwise this number will typically be one.",
+                                "interface_ref": "if1",
+                                "request_method": "POST",
+                                "tags": [
+                                    {
+                                        "tag": "Application",
+                                        "value": "Disk partitions"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Description of storage $1",
+                                "type": "SNMP_AGENT",
+                                "snmp_oid": "HOST-RESOURCES-MIB::hrStorageDescr.{#SNMPINDEX}",
+                                "key": "hrStorageDescr[{#SNMPVALUE}]",
+                                "delay": "1h",
+                                "history": "1w",
+                                "trends": "0",
+                                "value_type": "CHAR",
+                                "description": "A description of the type and instance of the storage described by this entry.",
+                                "interface_ref": "if1",
+                                "request_method": "POST",
+                                "tags": [
+                                    {
+                                        "tag": "Application",
+                                        "value": "Disk partitions"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Total disk space on $1",
+                                "type": "CALCULATED",
+                                "key": "hrStorageSizeInBytes[{#SNMPVALUE}]",
+                                "delay": "1h",
+                                "history": "1w",
+                                "units": "B",
+                                "params": "last(//hrStorageSize[{#SNMPVALUE}]) * last(//hrStorageAllocationUnits[{#SNMPVALUE}])",
+                                "description": "This is a calculated item, we need it to get total disk space in bytes.",
+                                "request_method": "POST",
+                                "tags": [
+                                    {
+                                        "tag": "Application",
+                                        "value": "Disk partitions"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Total disk space on $1 in units",
+                                "type": "SNMP_AGENT",
+                                "snmp_oid": "HOST-RESOURCES-MIB::hrStorageSize.{#SNMPINDEX}",
+                                "key": "hrStorageSize[{#SNMPVALUE}]",
+                                "delay": "1h",
+                                "history": "1w",
+                                "units": "units",
+                                "description": "The size of the storage represented by this entry, in units of hrStorageAllocationUnits. This object is writable to allow remote configuration of the size of the storage area in those cases where such an operation makes sense and is possible on the underlying system. For example, the amount of main memory allocated to a buffer pool might be modified or the amount of disk space allocated to virtual memory might be modified.",
+                                "interface_ref": "if1",
+                                "request_method": "POST",
+                                "tags": [
+                                    {
+                                        "tag": "Application",
+                                        "value": "Disk partitions"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Used disk space on $1",
+                                "type": "CALCULATED",
+                                "key": "hrStorageUsedInBytes[{#SNMPVALUE}]",
+                                "history": "1w",
+                                "units": "B",
+                                "params": "last(//hrStorageUsed[{#SNMPVALUE}]) * last(//hrStorageAllocationUnits[{#SNMPVALUE}])",
+                                "description": "This is a calculated item, we need it to get used disk space in bytes.",
+                                "request_method": "POST",
+                                "tags": [
+                                    {
+                                        "tag": "Application",
+                                        "value": "Disk partitions"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Used disk space on $1 in units",
+                                "type": "SNMP_AGENT",
+                                "snmp_oid": "HOST-RESOURCES-MIB::hrStorageUsed.{#SNMPINDEX}",
+                                "key": "hrStorageUsed[{#SNMPVALUE}]",
+                                "history": "1w",
+                                "units": "units",
+                                "description": "The amount of the storage represented by this entry that is allocated, in units of hrStorageAllocationUnits.",
+                                "interface_ref": "if1",
+                                "request_method": "POST",
+                                "tags": [
+                                    {
+                                        "tag": "Application",
+                                        "value": "Disk partitions"
+                                    }
+                                ]
+                            }
+                        ],
+                        "trigger_prototypes": [
+                            {
+                                "expression": "last(/10.116.64.1/hrStorageUsed[{#SNMPVALUE}]) / last(/10.116.64.1/hrStorageSize[{#SNMPVALUE}]) > 0.85",
+                                "name": "Free disk space is less than 15% on volume {#SNMPVALUE}",
+                                "priority": "WARNING"
+                            }
+                        ],
+                        "graph_prototypes": [
+                            {
+                                "name": "Disk space usage {#SNMPVALUE}",
+                                "width": "600",
+                                "height": "340",
+                                "show_work_period": "NO",
+                                "show_triggers": "NO",
+                                "type": "PIE",
+                                "show_3d": "YES",
+                                "graph_items": [
+                                    {
+                                        "color": "00C800",
+                                        "type": "GRAPH_SUM",
+                                        "item": {
+                                            "host": "10.116.64.1",
+                                            "key": "hrStorageSizeInBytes[{#SNMPVALUE}]"
+                                        }
+                                    },
+                                    {
+                                        "sortorder": "1",
+                                        "color": "C80000",
+                                        "item": {
+                                            "host": "10.116.64.1",
+                                            "key": "hrStorageUsedInBytes[{#SNMPVALUE}]"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "request_method": "POST"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.78.1",
+                "name": "ru09114",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.78.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.81.1",
+                "name": "ru11127",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.81.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "items": [
+                    {
+                        "name": "Device contact details",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysContact.0",
+                        "key": "sysContact",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "The textual identification of the contact person for this managed node, together with information on how to contact this person.  If no contact information is known, the value is the zero-length string.",
+                        "inventory_link": "CONTACT",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device description",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysDescr.0",
+                        "key": "sysDescr",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "A textual description of the entity.  This value should include the full name and version identification of the system's hardware type, software operating-system, and networking software.",
+                        "inventory_link": "HARDWARE",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device location",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysLocation.0",
+                        "key": "sysLocation",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "The physical location of this node (e.g., `telephone closet, 3rd floor').  If the location is unknown, the value is the zero-length string.",
+                        "inventory_link": "LOCATION",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device name",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysName.0",
+                        "key": "sysName",
+                        "delay": "1h",
+                        "history": "1w",
+                        "trends": "0",
+                        "value_type": "CHAR",
+                        "description": "An administratively-assigned name for this managed node. By convention, this is the node's fully-qualified domain name.  If the name is unknown, the value is the zero-length string.",
+                        "inventory_link": "NAME",
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Device uptime",
+                        "type": "SNMP_AGENT",
+                        "snmp_oid": "SNMPv2-MIB::sysUpTime.0",
+                        "key": "sysUpTime",
+                        "history": "1w",
+                        "units": "uptime",
+                        "description": "The time since the network management portion of the system was last re-initialized.",
+                        "preprocessing": [
+                            {
+                                "type": "MULTIPLIER",
+                                "parameters": [
+                                    "0.01"
+                                ]
+                            }
+                        ],
+                        "interface_ref": "if1",
+                        "request_method": "POST",
+                        "tags": [
+                            {
+                                "tag": "Application",
+                                "value": "General"
+                            }
+                        ]
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.87.1",
+                "name": "ru13105",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.87.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.98.1",
+                "name": "ru18104",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.98.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.100.1",
+                "name": "ru19104",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.100.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.104.1",
+                "name": "ru12129",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.104.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.111.1",
+                "name": "ru01122",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.111.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.114.1",
+                "name": "ru23002",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.114.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.116.1",
+                "name": "ru12132",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.116.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.122.1",
+                "name": "ru17116",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.122.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.123.1",
+                "name": "ru17rc",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.123.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.124.1",
+                "name": "ru14rc",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.124.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.125.1",
+                "name": "ru08rc",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.125.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.126.1",
+                "name": "ru24101",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.126.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.129.1",
+                "name": "ru13111",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.129.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.130.1",
+                "name": "ru13102",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.130.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.146.1",
+                "name": "ru02110",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.146.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.148.1",
+                "name": "ru02120",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.148.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.154.1",
+                "name": "ru12133",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.154.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.157.1",
+                "name": "ru08111",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.157.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.159.1",
+                "name": "ru07125",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.159.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.163.1",
+                "name": "ru01108",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.163.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.169.1",
+                "name": "ru09103",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.169.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.170.1",
+                "name": "ru09106",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.170.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.172.1",
+                "name": "ru09118",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.172.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.174.1",
+                "name": "ru09129",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.174.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.175.1",
+                "name": "ru11113",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.175.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.179.1",
+                "name": "ru12116",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.179.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.180.1",
+                "name": "ru12124",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.180.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.181.1",
+                "name": "ru13101",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.181.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.182.1",
+                "name": "ru13106",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.182.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.183.1",
+                "name": "ru13117",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.183.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.184.1",
+                "name": "ru13118",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.184.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.185.1",
+                "name": "ru13123",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.185.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.186.1",
+                "name": "ru13124",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.186.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.187.1",
+                "name": "ru09107",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.187.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.190.1",
+                "name": "ru11103",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.190.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.193.1",
+                "name": "ru03106",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.193.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.197.1",
+                "name": "ru13119",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.197.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.203.1",
+                "name": "ru24102",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.203.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.204.1",
+                "name": "ru19149",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.204.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.210.1",
+                "name": "ru03112",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.210.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.216.1",
+                "name": "ru05109",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.216.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.217.1",
+                "name": "ru05111",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.217.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.218.1",
+                "name": "ru05108",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.218.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.222.1",
+                "name": "ru11109",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.222.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.227.1",
+                "name": "ru12130",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.227.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.230.1",
+                "name": "ru15121",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.230.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.232.1",
+                "name": "ru17117",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.232.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.234.1",
+                "name": "ru13127",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.234.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.236.1",
+                "name": "ru21108",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.236.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.244.1",
+                "name": "ru21116",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.244.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.245.1",
+                "name": "ru12101",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.245.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.250.1",
+                "name": "ru22108",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.250.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.116.253.1",
+                "name": "ru03115",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.116.253.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.4.1",
+                "name": "ru21117",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.4.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.5.1",
+                "name": "ru13129",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.5.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.6.1",
+                "name": "ru07127",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.6.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.7.1",
+                "name": "ru06138",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.7.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.13.1",
+                "name": "ru13126",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.13.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.14.1",
+                "name": "ru04129",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.14.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.16.1",
+                "name": "ru02121",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.16.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.18.1",
+                "name": "ru02122",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.18.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.19.1",
+                "name": "ru02123",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.19.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.24.1",
+                "name": "ru09133",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.24.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.25.1",
+                "name": "ru17120",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.25.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.33.1",
+                "name": "ru03118",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.33.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.36.1",
+                "name": "ru10115",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.36.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.37.1",
+                "name": "ru10118",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.37.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.40.1",
+                "name": "ru11102",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.40.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.44.1",
+                "name": "ru14150",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.44.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.45.1",
+                "name": "ru19111",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.45.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.46.1",
+                "name": "ru12135",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.46.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.50.1",
+                "name": "ru02106",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.50.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.57.1",
+                "name": "ru17104",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.57.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.59.1",
+                "name": "ru09104",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.59.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.60.1",
+                "name": "ru06111",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.60.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.62.1",
+                "name": "ru06128",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.62.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.69.1",
+                "name": "ru22105",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.69.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.70.1",
+                "name": "ru22110",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.70.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.73.1",
+                "name": "ru23012",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.73.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.77.1",
+                "name": "ru23018",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.77.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.79.1",
+                "name": "ru18108",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.79.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.80.1",
+                "name": "ru25113",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.80.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.81.1",
+                "name": "ru22111",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.81.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.82.1",
+                "name": "ru20102",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.82.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.83.1",
+                "name": "ru19109",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.83.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.85.1",
+                "name": "ru08126",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.85.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.86.1",
+                "name": "ru25114",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.86.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.88.1",
+                "name": "ru14151",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.88.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.89.1",
+                "name": "ru22112",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.89.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.92.1",
+                "name": "ru03129",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.92.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.93.1",
+                "name": "ru16123",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.93.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.94.1",
+                "name": "ru03130",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.94.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.97.1",
+                "name": "ru14152",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.97.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.100.1",
+                "name": "ru11134",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.100.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.102.1",
+                "name": "ru19115",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.102.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.103.1",
+                "name": "ru08123",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.103.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.104.1",
+                "name": "ru15124",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.104.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.105.1",
+                "name": "ru18111",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.105.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.108.1",
+                "name": "ru25101",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.108.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.109.1",
+                "name": "ru16126",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.109.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.110.1",
+                "name": "ru25115",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.110.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.111.1",
+                "name": "ru10124",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.111.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.113.1",
+                "name": "ru13132",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.113.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.114.1",
+                "name": "ru14153",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.114.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.115.1",
+                "name": "ru12137",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.115.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.119.1",
+                "name": "ru14154",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.119.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.123.1",
+                "name": "ru18112",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.123.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.124.1",
+                "name": "ru01126",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.124.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.127.1",
+                "name": "ru14155",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.127.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.129.1",
+                "name": "ru20109",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.129.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.135.1",
+                "name": "ru12139",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.135.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.136.1",
+                "name": "ru25116",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.136.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.138.1",
+                "name": "ru18113",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.138.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.140.1",
+                "name": "ru12141",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.140.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.142.1",
+                "name": "ru15126",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.142.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.143.1",
+                "name": "ru17123",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.143.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.145.1",
+                "name": "ru24110",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.145.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.147.1",
+                "name": "ru04132",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.147.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.148.1",
+                "name": "ru15127",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.148.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.150.1",
+                "name": "ru14156",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.150.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.157.1",
+                "name": "ru12142",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.157.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.158.1",
+                "name": "ru26104",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.158.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.159.1",
+                "name": "ru22114",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.159.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.165.1",
+                "name": "ru03132",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.165.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.168.1",
+                "name": "ru23024",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.168.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.169.1",
+                "name": "ru17125",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.169.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.170.1",
+                "name": "ru17126",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.170.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.172.1",
+                "name": "ru05121",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.172.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.173.1",
+                "name": "ru22115",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.173.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.174.1",
+                "name": "ru23025",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.174.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.176.1",
+                "name": "ru26105",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.176.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.177.1",
+                "name": "ru21114",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.177.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.179.1",
+                "name": "ru18114",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.179.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.180.1",
+                "name": "ru19118",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.180.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.181.1",
+                "name": "ru06148",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.181.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.182.1",
+                "name": "ru17127",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.182.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.183.1",
+                "name": "ru02126",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.183.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.185.1",
+                "name": "ru13136",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.185.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.187.1",
+                "name": "ru22116",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.187.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.188.1",
+                "name": "ru06149",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.188.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.195.1",
+                "name": "ru02129",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.195.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.196.1",
+                "name": "ru01130",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.196.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "10.117.1172.1",
+                "name": "ru12138",
+                "status": "DISABLED",
+                "templates": [
+                    {
+                        "name": "Interfaces SNMP"
+                    },
+                    {
+                        "name": "Template ICMP Ping 5m"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "retail-ru"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "type": "SNMP",
+                        "ip": "10.117.117.1",
+                        "port": "161",
+                        "details": {
+                            "community": "{$SNMP_COMMUNITY}"
+                        },
+                        "interface_ref": "if1"
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            }
+        ]
+    }
+}
